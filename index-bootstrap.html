@@ -18,11 +18,11 @@
         <div class="row">
 
             <div class="col-md-6">
-                <h1>{{user.fullName}}</h1>
+                <h1>{{data.user.fullName}}</h1>
             </div>
 
             <div class=" text-center col-md-6">
-                <img src="{{user.photo}}" class="rounded col-8 " alt="...">
+                <img src="{{data.user.photo}}" class="rounded col-8 " alt="...">
               </div>
         </div>
         <br>
@@ -31,15 +31,15 @@
 
 
         <div class="row text-bg-primary">
-            <h1>{{city.name}}</h1>
+            <h1>{{data.city.name}}</h1>
             <div class="col-md-5 col-sm-10">
                 
-                 <img src="{{city.photo}}" class="rounded col-md-12 col-sm-10" alt="...">
+                 <img src="{{data.city.photo}}" class="rounded col-md-12 col-sm-10" alt="...">
               <br>
             </div>
             <div class="col-md-7">
                 <p>
-                    {{city.description}}
+                    {{data.city.description}}
                 </p>
             </div>
             <br>
@@ -53,7 +53,7 @@
             <div class="text-bg-primary">
               <br>
         
-                <h2>{{foreignLanguage.language}}</h2>
+                <h2>{{data.foreignLanguage.language}}</h2>
                 <br>
                 <br>
                 <hr>
@@ -67,7 +67,7 @@
                     </thead>
                     <tbody>
                       
-                    {{#each foreignLanguage.phrases}}
+                    {{#each data.foreignLanguage.phrases}}
                     <tr>
                         <td>{{englishPhrase}}</td>
                         <td>{{foreignLanguage}}</td>
@@ -88,8 +88,8 @@
 
         <br>
         <div class="text-center text-bg-primary">
-          <h2>{{course}}</h2>
-          <h3>{{institution}}</h3>
+          <h2>{{data.course}}</h2>
+          <h3>{{data.institution}}</h3>
           <hr>
           <br>
           <h2>favourite Subjects</h2>
@@ -100,7 +100,7 @@
         <br>
        
             <div class="row">
-                {{#each favouriteSubjects}}
+                {{#each data.favouriteSubjects}}
                 <div class="card mb-3 m-1" style="max-width: 540px;">
                     <div class="row g-1">
                       <div class="col-md-8 g-1">
