@@ -1,0 +1,52 @@
+{
+    "user" : {
+        "fullName": "Nokukhanya Mhlongo",
+        "photo" : "/images/Khanyi.jpg"
+    },
+
+
+    "city" : {
+        "name" : "Johannesburg",
+        "photo" : "/images/jozi.jpg",
+        "description" : "Johannesburg, This is because everything moves fast in Johannesburg and they are lot of opportunities.Johannesburg has plenty to offer visitors looking for a truly unique experience. The city also boasts a rich history and culture, with many museums, galleries, and historical sites to explore."
+    },
+
+    "foreignLanguage" : {
+        "language" : "Langauge I'm planning to learn: Portuguese",
+        "phrases" : [{
+            "englishPhrase" : "university of Johannesburg is one of the best universities in Africa",
+            "foreignLanguage" : "Universidade de Joanesburgo é uma das melhores universidades da África"
+
+        },
+      
+        {
+            "englishPhrase" : " School is tiring",
+            "foreignLanguage" : "A escola é cansativa"
+        }
+        ,
+        {
+            "englishPhrase" : "I was busy building my personal webpage  yesterday.",
+            "foreignLanguage" : "Eu estava ocupado construindo minha página pessoal ontem."
+        }]
+    },
+    "course": "Bcom Honours Information Management",
+    "institution": "University of Johannesburg",
+    "favouriteSubjects" : [
+        {
+            "name" : "Electronic Records Management",
+            "description" : "managing record electronically"
+        },
+        {
+            "name" : "Strategic Information Management",
+            "description" : "using information as a valuable asset"
+        },
+        {
+            "name" : "Management Information systems",
+            "description" : "Information system used for decision making"
+        },
+        {
+        "name" : "web and intranet management",
+        "description" : "web design principle,user experience and technical aspects of website development"
+    }
+    ]
+}
