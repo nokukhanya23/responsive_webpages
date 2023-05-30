@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
 </head>
-<body >
+<body style="background-image: url('images/table-mountain.jpg');">
+  <body >
    
     
     <main class="container">
@@ -17,12 +18,12 @@
         
         <div class="row">
 
-            <div class="col s12 m6">
+            <div class="col-md-6">
                 <h1>{{data.user.fullName}}</h1>
             </div>
 
-            <div class=" text-center col s12 m6">
-                <img src="{{data.user.photo}}" class="rounded col s12 m8 " alt="...">
+            <div class=" text-center col-md-6">
+                <img src="{{data.user.photo}}" class="rounded col-8 " alt="...">
               </div>
         </div>
         <br>
@@ -30,14 +31,16 @@
         <hr>
 
 
-        <div class="row">
+        <div class="row text-bg-primary">
             <h1>{{data.city.name}}</h1>
-            <div class="col s12 m6">
+            <div class="col-md-5 col-sm-10">
                 
-                 <img src="{{data.city.photo}}" class="rounded col s12 m10" alt="...">
-
+                 <img src="{{data.city.photo}}" class="rounded col-md-12 col-sm-10" alt="...">
+              <br>
             </div>
-            <div class="col s12 m6">
+          
+      
+            <div class="col-md-7">
                 <p>
                     {{data.city.description}}
                 </p>
@@ -49,7 +52,7 @@
 
 
         <div>
-            <div>
+            <div class="text-bg-primary">
               <br>
         
                 <h2>{{data.foreignLanguage.language}}</h2>
@@ -86,9 +89,9 @@
 
 
         <br>
-        <div class="text-center">
-          <h2>{{course}}</h2>
-          <h3>{{institution}}</h3>
+        <div class="text-center text-bg-primary">
+          <h2>{{data.course}}</h2>
+          <h3>{{data.institution}}</h3>
           <hr>
           <br>
           <h2>favourite Subjects</h2>
