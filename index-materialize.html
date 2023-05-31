@@ -9,38 +9,38 @@
 
 </head>
 <body style="background-image: url('images/table-mountain.jpg');">
-  <body >
+<main style="background-color: rgba(255,255,255,0.6)">
    
     
-    <main class="container">
+    <div class="container">
 
         <h1>materialize</h1>
         
         <div class="row">
 
-            <div class="col-md-6">
+            <div class="col s12 m6">
                 <h1>{{data.user.fullName}}</h1>
             </div>
 
-            <div class=" text-center col-md-6">
-                <img src="{{data.user.photo}}" class="rounded col-8 " alt="...">
+            <div class=" text-center col s12 m6">
+                <img src="{{data.user.photo}}" class="rounded col s12 m8" alt="...">
               </div>
         </div>
         <br>
         <br>
         <hr>
-
+ 
 
         <div class="row text-bg-primary">
             <h1>{{data.city.name}}</h1>
-            <div class="col-md-5 col-sm-10">
+            <div class="col s12 m5">
                 
-                 <img src="{{data.city.photo}}" class="rounded col-md-12 col-sm-10" alt="...">
+                 <img src="{{data.city.photo}}" class="rounded col s12 m12" alt="...">
               <br>
             </div>
           
       
-            <div class="col-md-7">
+            <div class="col s12 m7">
                 <p>
                     {{data.city.description}}
                 </p>
@@ -114,7 +114,7 @@
 
         <br>
        
-            
+    </div>       
 
     </main>
 
